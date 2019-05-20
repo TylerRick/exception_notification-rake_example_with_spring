@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.1.0', require: false
+#gem 'bootsnap', '>= 1.1.0', require: false
 gem 'exception_notification'
 gem _='exception_notification-rake', github: "TylerRick/#{_}", branch: 'support_exception_notification_4.3'
 
