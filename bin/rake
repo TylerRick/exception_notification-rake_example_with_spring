@@ -6,4 +6,5 @@ rescue LoadError => e
 end
 require_relative '../config/boot'
 require 'rake'
+load 'exception_notifier/rake/rake_patch.rb'
 Rake.application.run
