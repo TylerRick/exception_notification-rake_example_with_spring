@@ -15,7 +15,7 @@ gem 'pry-rails'
 # Reduces boot times through caching; required in config/boot.rb
 #gem 'bootsnap', '>= 1.1.0', require: false
 gem 'exception_notification'
-gem _='exception_notification-rake', github: "TylerRick/#{_}", branch: 'support_exception_notification_4.3'
+gem _='exception_notification-rake', github: "TylerRick/#{_}", branch: 'patch_rake_task_instead_of_application'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

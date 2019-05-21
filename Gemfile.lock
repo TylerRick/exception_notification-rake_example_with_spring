@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/TylerRick/exception_notification-rake.git
-  revision: d0412f4c11d00e55a89dc2636a35feb15b6e56c0
-  branch: support_exception_notification_4.3
+  revision: 1a4d16bd79adbed4927999ae2ffdd09e5bccc03b
+  branch: patch_rake_task_instead_of_application
   specs:
     exception_notification-rake (0.3.0)
       exception_notification (~> 4.3)
